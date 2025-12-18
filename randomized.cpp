@@ -38,6 +38,9 @@ int Cut(int V, vector<Edge> edges) {
 }
 
 int main() {
+
+     freopen("input.txt","r",stdin);
+     freopen("output.txt","w",stdout);
     int V, E;
     cin >> V >> E;
 
